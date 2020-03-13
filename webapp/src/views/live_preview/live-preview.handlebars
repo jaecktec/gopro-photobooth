@@ -1,0 +1,28 @@
+<!--  -->
+
+<div class="container">
+    <div class="head">Photobooth</div>
+    <div>
+        <div class="live-feed">
+            <div class="row">
+                <div class="col m12">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-image image-overlay">
+                            <img src="/video_feed"/>
+                            <canvas id="canvas-number" style="opacity: 0;"></canvas>
+                            <canvas id="canvas-dots"></canvas>
+                            <div id="flash" style="background: white; opacity: 0"></div>
+                        </div>
+                        <div class="card-action">
+                            <button id="take_picture" type="button" class="btn waves-effect waves-light btn-large red">
+                                <i class="material-icons left">camera_alt</i>Take Pic
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="live-controls"></div>
+        </div>
+        <div class="galery"></div>
+    </div>
+</div>

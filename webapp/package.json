@@ -1,0 +1,21 @@
+{
+  "name": "rollup-starter-lib",
+  "version": "1.0.0",
+  "module": "../static/photobooth.esm.js",
+  "css": "../static/photobooth.css",
+  "dependencies": {
+    "materialize": "^1.0.0",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "rollup": "^1.29.0",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-scss": "^2.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  }
+}
